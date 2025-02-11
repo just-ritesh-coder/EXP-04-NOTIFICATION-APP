@@ -72,20 +72,3 @@ You can also set your custom notification channel configuration. This is optiona
         .setImportanceLevel(level = NotificationImportanceLevel.HIGH)
         .setShowBadge(shouldShow = true)
         .build()</pre> 
-
-<b>***One important note, with Android13, make sure that your app has the post notification permission to have functionality of the app. You can check requesting the permission [here](https://github.com/10zgurr/NotificationMan/blob/master/app/src/main/java/com/notification/man/MainActivity.kt#L58-L63).***</b>
-
-
-
-App is in the foreground:</br>
-![](https://media1.giphy.com/media/ciweGllR6JM5e2xE4Y/giphy.gif)</br>
-</br>
-Exit the app:</br>
-![](https://media0.giphy.com/media/JR6RcCu6pbEFNBMKtZ/giphy.gif)</br>
-</br>
-App is in the background:</br>
-![](https://media1.giphy.com/media/RhBhUBYq771pIdHnlv/giphy.gif)</br>
-</br>
-App is killed:</br>
-![](https://media1.giphy.com/media/VFNh8xq0e8VFxdJ3Wa/giphy.gif)</br>
-</br>
